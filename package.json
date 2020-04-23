@@ -29,6 +29,11 @@
                 "command": "workbench.action.tasks.build"
             },
             {
+                "key": "shift+alt+oem_period",
+                "command": "editor.action.addSelectionToNextFindMatch",
+                "when": "editorFocus"
+            }
+            {
                 "key": "ctrl+b",
                 "command": "workbench.debug.viewlet.action.addFunctionBreakpointAction"
             },
